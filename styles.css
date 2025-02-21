@@ -1,0 +1,20 @@
+* {
+    font-family: Georgia, serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li * {
+    margin: 1em;
+}
+
+ul li input[type="text"]{
+    width: 20em;
+}
+
+li input[type="checkbox"]:checked + input[type="text"] {
+    text-decoration: line-through;
+    color: gray;
+}
